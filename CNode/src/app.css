@@ -1,0 +1,181 @@
+*{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style:none
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+button,input{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    /*消除默认点击蓝色边框效果*/
+    outline: none;
+}
+/* 顶部 */
+.he-input{
+    height: 30px;
+    width: 200px;
+    float:left;
+    margin-top:8px;
+}
+.he-div1{
+    
+    height: 50px;
+    background-color: lightslategray;
+}
+.he-div{
+    height: 50px;
+    background-color: lightslategray;
+    width: 1200px;
+    margin: 0 auto;
+}
+.he-div img{
+    height: 30px;
+    float:left;
+    margin-top:6px;
+}
+.he-div input{
+    margin-left: 20px;
+    margin-top: 10px;
+
+    border-radius: 50px;
+    height: 29px;
+}
+.he-div ul{
+    float:right;
+    line-height: 50px;
+}
+.he-div ul li{
+    float:left;
+    margin-right:50px;
+}
+
+.app-div{
+    width: 1200px;
+    margin:0 auto;
+}
+body{
+    background-color: silver;
+}
+/* 右边侧栏 */
+.si-div{
+    background-color: mediumslateblue;
+    float:right;
+    margin:10px 0 0 10px;
+    width: 290px;
+    height: 100px;
+}
+/* 左边框 */
+.ho-div{
+    width: 900px;
+    background-color: snow;
+    margin-top:10px;
+    float: left;
+}
+.ho-top{
+    background-color: #f6f6f6;
+    height: 40px;
+}
+.ho-div ul li{
+    float: left;
+    line-height: 40px;
+    padding:0 20px 0 20px;
+}
+.item{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-bottom:0.1px solid silver;
+}
+.item img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top:10px;
+    float: left;
+}
+.item div{
+    width: 100px;
+    float:left;
+    text-align: center;
+    font-size:12px;
+    color: gray;
+}
+
+.item button{
+    height: 30px;
+    width: 40px;
+    margin-top:10px;
+    color:white;
+    background-color: lightgreen;
+    float: left;
+}
+.all-title{
+    margin-left: 10px;
+    float: left;
+    width: 600px;
+    height: 40px;
+    overflow: hidden;
+}
+.all-time{
+    float: right;
+    font-size:14px;
+    color: gray;
+    margin-right:10px;   
+}
+
+/* 文章详情页 */
+.ar-div button{
+    color:white;
+    background-color: rgb(150, 209, 62);
+    margin:10px 20px 0px 10px;
+    padding:2px 5px 2px 5px; 
+    border-radius: 4px;
+}
+.ar-div{
+    width: 860px;
+    background-color:white;
+    margin-top:10px;
+    padding-top:15px;
+    padding-left: 20px;
+    padding:15px 20px 20px 20px;
+    float: left;
+    border-radius: 5px;
+}
+.ar-ti{
+    font-size: 25px;
+}
+.ar-at{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+
+}
+.lo-div{
+    width: 900px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    padding-top: 100px;
+    background-color: rgb(245, 240, 240);
+    text-align: center;
+    /* line-height: 300px; */
+}
+.lo-div input{
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+}
+.lo-div button{
+    height: 25px;
+    width: 220px;
+    font-size: 15px;
+    border-radius: 5px;
+
+    background-color: royalblue;
+}
